@@ -1,7 +1,7 @@
 # Musica
 ## I Want To Break Free
 
-I want to break free\
+I want to break free\ 
 I want to break free\
 I want to break free from your lies\
 _You're so self satisfied, I don't need you_\
