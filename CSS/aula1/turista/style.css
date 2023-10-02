@@ -1,0 +1,15 @@
+#primeiro {
+    background-color: blueviolet;
+    border-radius: 3px;
+    color: pink;
+}
+#segundo {
+    background-color: lightcoral;
+    border-radius: 3px;
+    color: black
+}
+#terceiro {
+    background-color: lightsalmon;
+    border-radius: 3px;
+    color: azure;
+}
