@@ -1,0 +1,28 @@
+/* combinador decendentes */
+p {
+    color:red;
+}
+
+div h1 {
+    color: green;
+}
+
+div .texto {
+    color: blue;
+}
+
+.texto {
+    color: orange;
+}
+
+/* combinador decendentes direto */
+
+li > b {
+    color: aquamarine;
+}
+
+/* combinador irmãos */
+
+img ~ span{
+    color: brown
+}

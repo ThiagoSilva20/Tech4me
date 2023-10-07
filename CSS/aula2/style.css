@@ -1,0 +1,10 @@
+[class] {
+    background-color: cadetblue;
+}
+
+[class="flamengo"] {
+    color: red;
+}
+[class^="Las"] {
+    background-color: aquamarine;
+}

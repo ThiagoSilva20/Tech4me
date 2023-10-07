@@ -1,0 +1,21 @@
+body{
+    background-color: beige;
+}
+.tabela {
+    border-collapse: collapse;
+}
+.vermelho {
+    background-color: red;
+}
+.branco {
+    background-color: white;
+}
+.azul {
+    background-color: blue;
+}
+.preto {
+    background-color: black;
+}
+.amarelo {
+    background-color: yellow;
+}

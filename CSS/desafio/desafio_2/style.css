@@ -1,0 +1,32 @@
+body{
+    background-color: black;
+}
+input {
+    all:unset;
+    text-align: end;
+    width: 183px;
+    height: 40px;
+    padding-right: 10px;
+    border-radius: 1px;
+    color: white;
+}
+main {
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+button {
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+}
+.num {
+    margin-top: 2px;
+    background-color: #363e3d;
+}
+.sim{
+    background-color: #2d3535;
+}
+.igual{
+    background-color: #40bdff;
+    animation: none;
+}
