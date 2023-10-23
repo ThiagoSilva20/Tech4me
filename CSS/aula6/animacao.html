@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .caixa {
+            width: 150px;
+            height: 150px;
+            background-color: orange;
+            border-radius: 50%;
+            border: 1px solid #000;
+            animation-name: aumentar;
+            animation-delay: 1s;
+            animation-direction: relative;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+            animation-play-state:running;
+            /* animation-timing-function: ; */
+            /* animation-fill-mode: ; */
+        }
+        @keyframes aumentar {
+            from {
+                margin-top: 0px;
+
+            }
+            to {
+                margin-top: 100px;
+
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="caixa"></div>
+    </div>
+</body>
+
+</html>

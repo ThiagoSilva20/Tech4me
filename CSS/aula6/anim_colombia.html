@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        .caixa {
+            background-color: bisque;
+            width: 150px;
+            height: 185px;
+        }
+        .amarelo{
+            height: 65px;
+            background-color: yellow;
+            animation: amarelo 3s infinite;
+        }
+        .azul{
+            height: 65px;
+            background-color: blue;
+            animation: azul 3s infinite;
+        }
+        .vermelho{
+            height: 65px;
+            background-color: red;
+            animation: vermelho 2s infinite;
+        }
+        .verde{
+            height: 65px;
+            background-color: greenyellow;
+            animation: vermelho 2s infinite;
+        }
+        @keyframes amarelo {
+            from{
+                width: 0;
+            }
+            to {
+                width: 300px;
+            }
+        }
+        @keyframes azul {
+            from{
+                width: 300px;
+            }
+            to {
+                width: 150px;
+
+            }
+        }
+        @keyframes vermelho {
+            from{
+                width: 10px;
+            }
+            to {
+                width: 160px;
+            }
+        }
+        </style>
+</head>
+
+<body>
+    <div class="caixa">
+        <div class="amarelo"></div>
+        <div class="azul"></div>
+        <div class="vermelho"></div>
+        <div class="verde"></div>
+
+    </div>
+    
+</body>
+
+</html>
