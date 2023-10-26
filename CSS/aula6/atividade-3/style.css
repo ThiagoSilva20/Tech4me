@@ -1,21 +1,95 @@
-.retangulo {
-    background: #094CFA;
-    width: 20%;
-    height: 60px;
-    margin: auto;
-    border-radius: 4px;
-    /* Aqui declaramos nossa animação inline */
-    animation: retangulo 3s linear infinite;
+.flex {
+    display: flex;
+    text-align: center;
+}
+p{
+    width: 70px;
+    height: 70px;
+    margin-right: 5px;
 }
 
-/* Aqui definimos a nossa animação com o nome "rotate" */
-@keyframes retangulo {
-    from {
-        width: 20%;
-        background-color: #094CFA;
+#churrasco {
+    height: 70px;
+    width: 0%;
+
+    animation: churrasco 4s linear infinite;
+}
+#strogonoff {
+    height: 70px;
+    width: 16%;
+    background-color: aqua;
+    animation: strogonoff 4s linear infinite;
+}
+#empadao {
+    height: 70px;
+    width: 15%;
+    background-color: aqua;
+    animation: empadao 4s linear infinite;
+}
+#lasanha {
+    height: 70px;
+    width: 10%;
+    background-color: aqua;
+    animation: lasanha 4s linear infinite;
+}
+#jilo {
+    height: 70px;
+    width: 3%;
+    background-color: aqua;
+    animation: jilo 4s linear infinite;
+}
+@keyframes churrasco{
+    from{
+        width: 0%;
+        background-color: aqua;
+
     }
     to {
-        width: 50%;
-        background-color: red;
+        width: 18%;
+        background-color: pink;
+    }
+}
+@keyframes strogonoff{
+    from{
+        width: 0%;
+        background-color: aqua;
+
+    }
+    to {
+        width: 16%;
+        background-color: pink;
+    }
+}
+@keyframes empadao{
+    from{
+        width: 0%;
+        background-color: aqua;
+
+    }
+    to {
+        width: 15%;
+        background-color: pink;
+    }
+}
+@keyframes lasanha{
+    from{
+        width: 0%;
+        background-color: aqua;
+
+    }
+    to {
+        width: 10%;
+        background-color: pink;
+    }
+}
+@keyframes jilo{
+    from{
+        width: 0%;
+        background-color: aqua;
+
+    }
+    to {
+        width: 3%;
+        background-color: pink;
     }
 }
