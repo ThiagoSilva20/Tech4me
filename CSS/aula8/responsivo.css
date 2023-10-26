@@ -1,0 +1,17 @@
+@media screen {
+        .impressao{
+            color:blue;
+        }
+    }
+@media print {
+    .impressao {
+        color: green;
+    }
+}
+
+@media (max-width: 767px) {
+    /* CSS para telas menores, como smartphones */
+}
+@media (min-width: 1024px) {
+    /* CSS para tablets em modo paisagem e desktops */
+}

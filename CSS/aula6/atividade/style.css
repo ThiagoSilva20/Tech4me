@@ -1,0 +1,21 @@
+.retangulo {
+    background: #094CFA;
+    width: 20%;
+    height: 60px;
+    margin: auto;
+    border-radius: 4px;
+    /* Aqui declaramos nossa animação inline */
+    animation: retangulo 3s linear infinite;
+}
+
+/* Aqui definimos a nossa animação com o nome "rotate" */
+@keyframes retangulo {
+    from {
+        width: 20%;
+        background-color: #094CFA;
+    }
+    to {
+        width: 50%;
+        background-color: red;
+    }
+}
