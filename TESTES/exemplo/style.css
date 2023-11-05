@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.motoboy {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: -100px; /* Inicia da esquerda da tela */
+    animation: motoboyAnimation 5s linear infinite; /* 5s é a duração da animação */
+}
+
+@keyframes motoboyAnimation {
+    0% {
+        transform: scaleX(1); /* Sem espelhamento (à esquerda) */
+        left: -100px;
+    }
+    50% {
+        transform: scaleX(-1); /* Espelhamento (à direita) */
+    }
+}
