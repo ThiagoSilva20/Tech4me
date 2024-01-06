@@ -10,3 +10,14 @@ const informacao = {
 
 var completo = informacao.mostrar();
 console.log(completo);
+var veiculo = { 
+        carro: {
+            nivus: {
+
+            },
+            gol: {
+                
+            }
+        },
+    
+};
