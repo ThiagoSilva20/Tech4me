@@ -1,6 +1,6 @@
 const prompt = require("prompt-sync")();
 
-var clientes_saldos = {"thiago": 1000.0,"moises": 500.0, "rafael": -250.0};
+var clientes_saldos = {"thiago": 1000.0,"moises": 500.0, "bruna": -250.0};
 
 var nome = prompt("Digite o nome do cliente:");
 

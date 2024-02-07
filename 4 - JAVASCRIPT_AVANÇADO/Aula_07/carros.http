@@ -1,0 +1,8 @@
+GET http://localhost:8080/carros
+
+#######
+
+POST http://localhost:8080/carros
+Content-Type: application/json
+
+{"aluno": "daine", "montadora": "bye", "modelo":"Dolphin", "cor": "prata", "ano":2024}
